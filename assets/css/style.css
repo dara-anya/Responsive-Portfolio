@@ -203,15 +203,12 @@ textarea{
 }
 
 /* If screen smaller than 691px */
-@media screen and (max-width: 691px){
+@media screen and (max-width: 1100px){
 
-  #footer{
-      font-size: 10px;
-  }
-
-  footer{
-      padding-top: 8px;
-      border-width: 3px 0 0 0 ;  
+  /* #footer{
+      font-size: 15px;
+      padding-top: 5px;
+      border-width: 5px 0 0 0 ; 
   }
 
   #poster1{
@@ -233,5 +230,52 @@ textarea{
       width: 300px;
       top: -150px;
       left: 0px;
+  } */
+
+  /* #logo{
+    width: 100%;
   }
+  nav{
+    float: none;
+    text-align: center;
+  } */
 }
+
+
+@media screen and (max-width: 1100px){
+  #logo{
+    width: 100%;
+  }
+  nav{
+    float: none;
+    text-align: center;
+  }
+  #footer{
+    font-size: 15px;
+    padding-top: 5px;
+    border-width: 5px 0 0 0 ; 
+}
+
+#poster1{
+    margin-right: 100%;
+    width: 300px;
+    height: 350px;
+}
+
+#label1{
+  
+    width: 300px;
+    top: -300px;
+}
+#poster2{
+    width: 300px;
+    height: 200px;
+}
+
+#label2{
+    width: 300px;
+    top: -150px;
+    left: 0px;
+}
+}
+
